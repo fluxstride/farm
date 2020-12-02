@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: poppins;
+}
+.main-container{
+    display:grid;
+}
+
+.first-container{
+   background: url(farm\ picture\ main\ bk.jpg);
+   background-size: cover;
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   color: white;
+   height: 100vh;
+}
+.first-container-inner{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 3em 5em;
+}
+.first-container-inner .top{
+    display:grid;
+   grid-template-columns: 1.5fr 1fr ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.psr{
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.first-container-inner .top ul{
+    display: grid;
+    justify-items: right;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+}
+.first-container-inner .bottom{
+    font-weight: 600 !important;
+    font-size: 4em;
+    justify-self: center;
+}
+.second-container{
+    height: 90vh;
+    
+}
+.second-container-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.second-container-inner .left{
+    justify-self: center;
+}
+.second-container-inner .rigth{
+    justify-self: left;
+    align-self: ;
+}
+.third-container{
+    height: 90vh;
+    background: #20482B;
+   
+}
+.third-container-inner{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.third-container-inner .left{
+    justify-self: center;
+}
+.third-container-inner .rigth{
+    justify-self: center;
+}
+.fourth-container{
+    background: #0C2315;
+    display: grid;
+    height: 10vh;
+}
+.fourth-container-inner{
+    color: white;
+    align-self: center ;
+    justify-self: center;
+}
